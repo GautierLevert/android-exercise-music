@@ -1,3 +1,7 @@
+buildscript {
+    ext.supportLibrariesVersion = '25.3.1'
+}
+
 apply plugin: 'com.android.application'
 
 android {
@@ -22,6 +26,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.3.0'
-    compile 'com.android.support:design:25.3.0'
+    compile "com.android.support:appcompat-v7:$supportLibrariesVersion"
+    compile "com.android.support:design:$supportLibrariesVersion"
 }
