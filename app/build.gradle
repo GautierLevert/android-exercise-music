@@ -1,17 +1,17 @@
 buildscript {
-    ext.supportLibrariesVersion = '25.3.1'
+    ext.supportLibrariesVersion = '26.1.0'
 }
 
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.3"
 
     defaultConfig {
         applicationId "fr.iut_amiens.audioplayer"
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
